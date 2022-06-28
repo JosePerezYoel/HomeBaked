@@ -1,0 +1,223 @@
+* {
+  color: #230903;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4694a;
+}
+
+nav ul {
+  padding-left: 50px;
+  display: flex;
+  height: 85px;
+  background-color: #f29f80;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  border-bottom: solid 4px #230903;
+}
+
+nav li {
+  flex: auto;
+  font-weight: 500;
+}
+
+.logo {
+  font-weight: 700;
+}
+/* Hero-Start */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 150px;
+  border-bottom: solid 4px #230903;
+}
+
+.hero-content > img {
+  box-shadow: 3px 3px 10px #230903;
+  object-fit: cover;
+  border-radius: 35%;
+  margin: 50px;
+  margin-left: 75px;
+  width: 600px;
+  height: auto;
+}
+
+.hero-content > .text {
+  background: #f29f80;
+  padding-left: 80px;
+  font-size: 30px;
+  margin-right: 60px;
+  padding: 4rem;
+  border: solid;
+  box-shadow: 5px 5px 10px #230903;
+}
+
+.hero-content > .text > h1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 100px;
+  margin-bottom: 75px;
+  position: relative;
+  left: -30px;
+}
+
+.title {
+  font-family: "Lobster Two", cursive;
+  font-size: 100px;
+  text-align: center;
+  margin: 30px;
+}
+.hero-content > .text > h2 {
+  width: 750px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.hero-content > .text > a {
+  background-color: #230903;
+  color: #f29f80;
+  padding: 15px;
+  margin-right: 100px;
+}
+.hero-content > .text > a:hover {
+  background-color: #f29f80;
+  border: solid 2px #230903;
+}
+
+/* Hero-End */
+
+/* Basic Styles for All Sections */
+.one,
+.two,
+.three {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+  padding: 100px;
+  border-bottom: solid 4px #230903;
+}
+
+.group {
+  margin-left: 5%;
+  margin-right: 5%;
+  border: solid;
+  box-shadow: 5px 5px 10px #230903;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.group > h3 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.group > p {
+  font-size: 20px;
+  margin: 6% 2%;
+  line-height: 75px;
+  text-align: center;
+}
+
+.group > a {
+  border: solid 2px #f29f80;
+  background-color: #230903;
+  color: #f29f80;
+  padding: 15px;
+}
+
+/* End Basic */
+
+/* Start of Section 1 */
+
+.one {
+  background: #f29f80;
+}
+
+.one > .group {
+  background: #f4694a;
+}
+
+.one > .meringue {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+  width: 200px;
+}
+
+.one > .cake {
+  width: 200px;
+  position: relative;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  bottom: -100px;
+}
+
+.one > .cupcake {
+  position: absolute;
+  right: 300px;
+  bottom: 345px;
+  width: 200px;
+}
+
+/* End Section 1 */
+
+/* Start Section 2 */
+
+.two {
+  background: #f4694a;
+  flex-direction: column;
+}
+
+.two > .group {
+  background: #f29f80;
+}
+
+/* End 2 */
+
+/* Start Section 3 */
+
+/* End 3 */
+.three {
+  background: #f29f80;
+}
+.three > .group {
+  background: #f4694a;
+}
+/* Footer */
+footer{
+  background: #230903;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer > ul > a {
+  padding: 15px;
+}
+
+
+footer > *,
+footer > ul > a,
+.copyright   {
+  color: whitesmoke;
+}
+
+.copyright {
+  background: #230903;
+}
